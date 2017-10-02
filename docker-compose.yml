@@ -1,7 +1,7 @@
 version: '3'
 services:
   wp:
-    image: "mrszympek/my-image"
+    image: "my-docker-hub-username/my-image"
     ports:
       - "80:80"
     environment:
